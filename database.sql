@@ -6,6 +6,17 @@ CREATE TABLE tb_categories (
 	PRIMARY KEY(cat_id)
 );
 
+CREATE TABLE tb_order (
+	order_id int(11) NOT NULL AUTO_INCREMENT,
+	nama varchar(255) NOT NULL,
+	telpon varchar(255) NOT NULL,
+	jenisJasa varchar(255) NOT NULL,
+	deskripsi varchar(255) NOT NULL,
+	alamat varchar(255) NOT NULL,
+	tanggal varchar(255) NOT NULL,
+	PRIMARY KEY(order_id)
+)
+
 CREATE TABLE tb_posts (
 	post_id INT(11) NOT NULL AUTO_INCREMENT,
 	post_id_cat INT(11) NOT NULL,

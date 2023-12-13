@@ -18,12 +18,12 @@ class Order extends Model
 
      public function save()
      {
-            $nama = $_POST['nama'];
-            $telpon = $_POST['telpon'];
-            $jenisJasa = $_POST['jenisJasa'];
-            $deskripsi = $_POST['deskripsi'];
-            $alamat = $_POST['alamat'];
-            $tanggal = $_POST['tanggal'];
+          $nama = $_POST['nama'];
+          $telpon = $_POST['telpon'];
+          $jenisJasa = $_POST['jenisJasa'];
+          $deskripsi = $_POST['deskripsi'];
+          $alamat = $_POST['alamat'];
+          $tanggal = $_POST['tanggal'];
 
           $sql = "INSERT INTO tb_order
             SET nama=:nama, telpon=:telpon, jenisJasa=:jenisJasa, deskripsi=:deskripsi, alamat=:alamat, tanggal=:tanggal";
