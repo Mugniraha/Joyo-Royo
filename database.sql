@@ -27,6 +27,19 @@ CREATE TABLE tb_users (
 	UNIQUE KEY(user_email)
 );
 
+CREATE TABLE tb_pesanan (
+    pesanan_id INT AUTO_INCREMENT PRIMARY KEY,
+    bahan VARCHAR(255),
+    warna VARCHAR(50),
+    panjang DECIMAL(10, 2),
+    lebar DECIMAL(10, 2),
+    tinggi DECIMAL(10, 2),
+    jumlah_pesanan INT,
+    metode_pengiriman VARCHAR(100),
+    keterangan TEXT,
+    tanggal_pemesanan DATE
+);
+
 INSERT INTO
 	tb_users
 VALUES
