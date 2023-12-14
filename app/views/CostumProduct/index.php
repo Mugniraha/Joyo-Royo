@@ -16,6 +16,9 @@
                 <th rowspan="2">Aksi</th>
             </tr>
             <tr>
+                <th></th>
+                <th></th>
+                <th></th>
                 <th>Panjang</th>
                 <th>Lebar</th>
                 <th>Tinggi</th>

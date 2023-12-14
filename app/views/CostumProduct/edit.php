@@ -42,7 +42,7 @@
             </div>
             <div class="mb-3">
                 <label for="pengiriman" class="form-label">Metode Pengiriman</label>
-                <select class="form-select" id="pengiriman" name="pengiriman">
+                <select class="form-select" id="metode_pengiriman" name="metode_pengiriman">
                     <option value="" selected disabled>Pilih Metode Pengiriman</option>
                     <option value="Ambil Ditempat">Ambil Ditempat</option>
                     <option value="Jasa Antar">Jasa Antar</option>
@@ -50,9 +50,13 @@
             </div>
         </div>
         <div class="input3">
+        <div class="mb-3">
+                <label for="deskripsi" class="form-label">Tanggal Pemesanan</label>
+                <input type="date" class="form-control" id="date" name="date" placeholder="" value="">
+            </div>
             <div class="mb-3">
                 <label for="deskripsi" class="form-label">Keterangan Tambahan</label>
-                <textarea class="form-control" id="deskripsi" name="deskripsi" rows="6" placeholder="Masukkan deskripsi"></textarea>
+                <textarea class="form-control" id="deskripsi" name="keterangan" rows="6" placeholder="Masukkan deskripsi"></textarea>
             </div>
         </div>
         <div class="mb-3 row">
@@ -60,4 +64,3 @@
         </div>
     </div>
 </form>
-

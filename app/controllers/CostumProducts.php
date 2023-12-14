@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use App\Core\Controller;
 
-class CostumProduct extends Controller
+class CostumProducts extends Controller
 {
         public object $model;
 
