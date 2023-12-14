@@ -52,7 +52,7 @@
         <div class="input3">
         <div class="mb-3">
                 <label for="deskripsi" class="form-label">Tanggal Pemesanan</label>
-                <input type="date" class="form-control" id="date" name="date" placeholder="" value="">
+                <input type="date" class="form-control" id="date" name="tanggal_pemesanan" placeholder="" value="">
             </div>
             <div class="mb-3">
                 <label for="deskripsi" class="form-label">Keterangan Tambahan</label>
