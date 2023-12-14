@@ -21,7 +21,7 @@ class Category extends Model
           $cat_name = $_POST['cat_name'];
 
           $sql = "INSERT INTO tb_categories
-            SET cat_name=:cat_name";
+               SET cat_name=:cat_name";
           $stmt = $this->db->prepare($sql);
 
           $stmt->bindParam(":cat_name", $cat_name);
