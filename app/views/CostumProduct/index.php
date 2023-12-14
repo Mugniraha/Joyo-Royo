@@ -3,24 +3,31 @@
       <a href="<?php echo URL; ?>/CostumProducts/create">+ Tambah Data</a>
     </div>
     <table>
-        <thead>
-            <tr>
-                <th rowspan="2">No</th>
-                <th colspan="2">Bahan</th>
-                <th rowspan="2">Warna</th>
-                <th rowspan="3">Dimensi Produk</th>
-                <th rowspan="2">Jumlah Pesanan</th>
-                <th rowspan="2">Metode Pengiriman</th>  
-                <th rowspan="2">Keterangan</th>
-                <th rowspan="2">Tanggal Pemesanan</th>
-                <th rowspan="2">Aksi</th>
-            </tr>
-            <tr>
-                <th>Panjang</th>
-                <th>Lebar</th>
-                <th>Tinggi</th>
-            </tr>
-        </thead>
+    <thead>
+        <tr>
+            <th rowspan="3">No</th>
+            <th colspan="3">Bahan</th>
+            <th rowspan="3">Warna</th>
+            <th colspan="3">Dimensi Produk</th>
+            <th rowspan="3">Jumlah Pesanan</th>
+            <th rowspan="3">Metode Pengiriman</th>  
+            <th rowspan="3">Keterangan</th>
+            <th rowspan="3">Tanggal Pemesanan</th>
+            <th rowspan="3">Aksi</th>
+        </tr>
+        <tr>
+            <th colspan="2">Bahan</th>
+            <th rowspan="2">Warna</th>
+            <th rowspan="2">Panjang</th>
+            <th rowspan="2">Lebar</th>
+            <th rowspan="2">Tinggi</th>
+        </tr>
+        <tr>
+            <th>Panjang</th>
+            <th>Lebar</th>
+            <th>Tinggi</th>
+        </tr>
+    </thead>
         <tbody>
         <?php $no = 1;
         foreach ($data['rows'] as $row) { ?>
