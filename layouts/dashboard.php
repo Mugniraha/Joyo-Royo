@@ -43,7 +43,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="<?php echo URL; ?>/posts">
+					<a href="<?php echo URL; ?>/Products">
 						<img class="icon" src="<?php echo AST; ?>/img/menu.png" alt=""> Product
 					</a>
 				</li>
