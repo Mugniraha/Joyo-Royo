@@ -58,6 +58,11 @@
 					</a>
 				</li>
 				<li>
+					<a href="<?php echo URL; ?>/CostumProducts">
+						<img class="icon" src="<?php echo AST; ?>/img/menu.png" alt=""> Costum Product
+					</a>
+				</li>
+				<li>
 					<a href="<?php echo URL; ?>/dashboard/logout">
 						<img class="icon" src="<?php echo AST; ?>/img/menu.png" alt=""> Logout
 					</a>
