@@ -6,17 +6,16 @@
         <thead>
             <tr>
                 <th rowspan="2">No</th>
-                <th rowspan="2">Tanggal Pemesanan</th>
                 <th colspan="2">Bahan</th>
                 <th rowspan="2">Warna</th>
                 <th rowspan="3">Dimensi Produk</th>
                 <th rowspan="2">Jumlah Pesanan</th>
                 <th rowspan="2">Metode Pengiriman</th>  
                 <th rowspan="2">Keterangan</th>
+                <th rowspan="2">Tanggal Pemesanan</th>
                 <th rowspan="2">Aksi</th>
             </tr>
             <tr>
-                <th></th>
                 <th>Panjang</th>
                 <th>Lebar</th>
                 <th>Tinggi</th>
