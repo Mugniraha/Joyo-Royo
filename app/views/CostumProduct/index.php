@@ -26,7 +26,6 @@
         foreach ($data['rows'] as $row) { ?>
             <tr>
                 <td><?php echo $no; ?></td>
-                <td><?php echo $row['tanggal_pemesanan']; ?></td>
                 <td><?php echo $row['bahan']; ?></td>
                 <td><?php echo $row['warna']; ?></td>
                 <td><?php echo $row['panjang']; ?></td>
@@ -35,6 +34,7 @@
                 <td><?php echo $row['jumlah_pesanan']; ?></td>
                 <td><?php echo $row['metode_pengiriman']; ?></td>
                 <td><?php echo $row['keterangan']; ?></td>
+                <td><?php echo $row['tanggal_pemesanan']; ?></td>
                 <td>
                 <a href="<?php echo URL; ?>/CostumProducts/edit/<?php echo $row['pesanan_id']; ?>" class="btn">Edit</a>
                 <a href="<?php echo URL; ?>/CostumProducts/delete/<?php echo $row['pesanan_id']; ?>" class="btn" onclick="return confirm('Yakin Mau Hapus ?')">Delete</a>                  
